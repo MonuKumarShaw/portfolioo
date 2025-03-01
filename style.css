@@ -1,0 +1,132 @@
+#heading{
+    color: rgb(27, 114, 114);
+    text-align: center;
+    background-color: bisque;
+    border: 2px dotted aquamarine;
+}
+#img{
+    border: 2px solid rgba(rgb(34, 18, 18), rgb(61, 80, 61), rgb(10, 10, 43), 0.3);
+    transition: border-radius 2s ease 0.2s;
+    display: inline-block;
+}
+#img:hover{
+    border-radius: 50%;
+
+}
+#heading1{
+     display: inline;
+    }
+#personaldetails{
+    opacity: 0;
+    display: inline-block;
+    margin-left: 100px;
+    font-size: large;
+}
+#img:hover + #personaldetails{
+    opacity: 1;
+    transition-duration: 1s;
+    border-radius: 10%;
+    transition-delay: 0.2s;
+    transform:translateY(-100px);
+}
+#first{
+    background-color: antiquewhite;
+}
+#first:hover{
+    background-color: rgb(240, 202, 149);
+    transform:scale(1.001);
+}
+#second{
+    background-color: rgb(207, 177, 137);
+}
+#heading2{
+    text-align: center;
+    
+}
+#second:hover{
+    background-color: burlywood;
+    transform:scale(1.01);
+}
+#aboutschool{
+    opacity: 0;
+    font-size: large;
+}
+#KHS:hover{
+    transform:scale(1.01);
+}
+#KHS:hover + #aboutschool{
+    
+    opacity: 1;
+    transition-duration: 1s;
+    text-align: center;
+    transform:translateX(200px);
+    transform:translateY(-200px)
+    
+}
+#NIT:hover{
+    transform:scale(1.02);
+    
+}
+#aboutcollege{
+    opacity: 0;
+    font-size: large;
+}
+#NIT:hover + #aboutcollege{
+ opacity: 1;
+ transition-duration: 1s;
+ text-align: center;
+ transform:translateX(200px);
+ transform:translateY(-200px)
+}
+#third{
+    background-color:rgb(245, 211, 160) ;
+}
+#heading3{
+    text-align: center;
+}#third{
+    opacity: 0.8;
+}
+#thirdcontent{
+    text-align: center;
+    opacity: 0.85;
+}
+#third:hover{
+ background-color: rgb(207, 170, 113) ;
+ opacity: 1;
+ transform:scale(1.009);
+}
+#third:hover  #thirdcontent{
+ opacity: 1;
+ transition-duration: 1s;
+ 
+}
+#heading4{
+    text-align: center;
+}
+#fourth {
+    background-color: #f8f8f8;
+    padding: 20px;
+    background-color: rgb(226, 199, 165);
+}
+#fourth:hover{
+    transform: scale(1.0009);
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;  /* Aligns images in a single line */
+    align-items: center;      /* Vertically aligns them */
+    gap: 20px;  /* Adds space between images */
+    margin-top: 10px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
